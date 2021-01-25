@@ -49,7 +49,6 @@ public class YoutubePlayActivity extends AppCompatActivity {
                 }
             }
         });
-
         mActivityYoutubePlayBinding.youtubePlayerView.addFullScreenListener(new YouTubePlayerFullScreenListener() {
             @Override
             public void onYouTubePlayerEnterFullScreen() {
@@ -65,8 +64,6 @@ public class YoutubePlayActivity extends AppCompatActivity {
                 setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_PORTRAIT);
             }
         });
-
-
     }
 
 
